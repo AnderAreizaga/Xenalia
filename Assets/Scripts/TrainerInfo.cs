@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class TrainerInfo : MonoBehaviour {
 
+    public string trainerName;
+    public Pokemon[] party;
     //Clase del entrenador
-    public enum Clase
+    public enum Class
     {
         EntrenadorGuay,
         Karateka
     };
 
-    private static string[] nombreClase = new string[]
+    private static string[] className = new string[]
    {
         "Entrenador Guay",
         "Karateka"
