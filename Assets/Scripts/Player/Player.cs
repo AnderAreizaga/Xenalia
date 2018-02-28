@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
-
+    public int Cash;
+    public PC pc;
 	// Use this for initialization
 	void Start () {
 		
