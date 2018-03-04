@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-    public int Cash;
-    public PC pc;
-    public Pokemon[] party;
-    public string playerName;
+    private int Cash;
+    private PC pc;
+    private Pokemon[] party;
+    private string playerName;
 
 
 	// Use this for initialization
